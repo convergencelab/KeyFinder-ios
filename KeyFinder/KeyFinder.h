@@ -2,7 +2,7 @@
 //  KeyFinder.h
 //  KeyFinder
 //
-//  Created by IT Services Loaner on 2019-07-24.
+//  Created by Travis MacDonald on 2019-07-24.
 //  Copyright © 2019 Convergence Lab. All rights reserved.
 //
 
