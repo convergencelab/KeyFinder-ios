@@ -10,18 +10,18 @@ import Foundation
 
 class ActiveNoteList {
         
-    // Keys to increment when adding active notes.
+    // Keys to increment/decrement for active notes I/O.
     // Sequence is dependent on parent scale.
     public var incrementSequence: [Int]
     
-    private let activeNotes: [Bool]
+    private var noteIsActive: [Bool]
     
-    private let keyStrength: [Int]
+    private var keyStrength: [Int]
     
     public init() {
         // Increment Sequence for major
         self.incrementSequence = MusicTheory.PHRYGIAN_SCALE_SEQUENCE
-        activeNotes = Array(repeating: false, count: MusicTheory.OCTAVE_SIZE)
+        noteIsActive = Array(repeating: false, count: MusicTheory.OCTAVE_SIZE)
         keyStrength = Array(repeating: 0, count: MusicTheory.OCTAVE_SIZE)
     }
     
@@ -30,10 +30,28 @@ class ActiveNoteList {
     }
     
     public func addNote(ix: Int) {
-        // Fill in later
+        if !noteIsActive[ix] {
+            noteIsActive[ix] = true
+            incrementKeysWith(ix: ix)
+        }
     }
     
     public func removeNote(ix: Int) {
-        // Fill in later
+        if noteIsActive[ix] {
+            noteIsActive[ix] = false
+            decrementKeysWith(ix: ix)
+        }
+    }
+    
+    private func incrementKeysWith(ix: Int) {
+        for intvl in incrementSequence {
+            keyStrength[(intvl + ix) % MusicTheory.OCTAVE_SIZE] += 1
+        }
+    }
+    
+    private func decrementKeysWith(ix: Int) {
+        for intvl in incrementSequence {
+            keyStrength[(intvl + ix) % MusicTheory.OCTAVE_SIZE] -= 1
+        }
     }
 }
