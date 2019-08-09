@@ -1,13 +1,9 @@
 //
-//  AbstractKey.swift
+//  KeyGenerator.swift
 //  KeyFinder
 //
-//  Created by Travis MacDonald on 2019-08-02.
+//  Created by Travis MacDonald on 2019-08-09.
 //  Copyright © 2019 Convergence Lab. All rights reserved.
 //
 
 import Foundation
-
-public class Key {
-    
-}
