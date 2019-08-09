@@ -131,7 +131,7 @@ public class MusicTheory {
     /**
      * Total number of unique tones in western music.
      */
-    public static let TOTAL_NOTES = 12
+    public static let OCTAVE_SIZE = 12
     
     /**
      * Number of notes in a diatonic scale.
