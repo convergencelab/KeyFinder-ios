@@ -14,9 +14,9 @@ class ActiveNoteList {
     // Sequence is dependent on parent scale.
     public var incrementSequence: [Int]
     
-    private var noteIsActive: [Bool]
+    public private(set) var noteIsActive: [Bool]
     
-    private var keyStrength: [Int]
+    public private(set) var keyStrength: [Int]
     
     public init() {
         // Increment Sequence for major
@@ -25,7 +25,7 @@ class ActiveNoteList {
         keyStrength = Array(repeating: 0, count: MusicTheory.OCTAVE_SIZE)
     }
     
-    public func findMaxStrength() -> Int {
+    public func max() -> Int {
         return keyStrength.max()!
     }
     
