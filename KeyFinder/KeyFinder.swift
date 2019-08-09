@@ -8,8 +8,13 @@
 
 import Foundation
 
-/* Wrapper Class for ActiveKeyList and KeyGenerator */
+/* TODO: Move all this to KeyFinder Model */
+
 public class KeyFinder {
+    
+    private static let DEFAULT_KEY_TIMER_LEN = 3
+    
+    private static let DEFAULT_NOTE_TIMER_LEN = 2
     
     // Used to set parent scale
     public static let PARENT_MAJOR = 0
@@ -23,12 +28,20 @@ public class KeyFinder {
     // Sequence to set in ActiveNoteList for Melodic Minor
     private static let MELODIC_MINOR_INCREMENT_SEQUENCE = MusicTheory.DORIAN_FLAT2_SEQUENCE
     
+    public var observers: [KeyChangeObserver]
+    
+    private var activeNoteList: ActiveNoteList
+    
     /*
      * Will take care of scheduled timing of removing notes
      * setting active key threads
      * Turning active key indices into keys and returning them
      */
     
+    public init() {
+        observers = Array<KeyChangeObserver>()
+        activeNoteList = ActiveNoteList()
+    }
     
     
 }
