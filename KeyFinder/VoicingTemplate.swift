@@ -16,13 +16,19 @@ public class VoicingTemplate {
     
     public let chordTones: [ChordTone]
     
+    public var size: Int {
+        get {
+            return bassTones.count + chordTones.count
+        }
+    }
+    
     public init(name: String, bassIxs: [Int], chordIxs: [Int]) {
         self.name = name
         self.bassTones = VoicingTemplate.toBassTones(ixs: bassIxs)
         self.chordTones = VoicingTemplate.toChordTones(ixs: chordIxs)
     }
     
-    public class func toBassTones(ixs: [Int]) -> [BassTone] {
+    class func toBassTones(ixs: [Int]) -> [BassTone] {
         var tones = [BassTone]()
         for ix in ixs {
             tones.append(BassTone(degree: ix))
@@ -30,7 +36,7 @@ public class VoicingTemplate {
         return tones
     }
     
-    public class func toChordTones(ixs: [Int]) -> [ChordTone] {
+    class func toChordTones(ixs: [Int]) -> [ChordTone] {
         var tones = [ChordTone]()
         for ix in ixs {
             tones.append(ChordTone(degree: ix))

@@ -8,8 +8,6 @@
 
 import Foundation
 
-/* CLASS DOESN'T CONTAIN NOTE LIST BECAUSE IT ISN'T NECCESSARY */
-
 public class Key {
     
     public let ix: Int
@@ -20,4 +18,5 @@ public class Key {
         self.ix = ix
         self.mode = mode
     }
+
 }

@@ -145,4 +145,12 @@ public class MusicTheory {
         "Major",
         "Melodic Minor"
     ]
+    
+    public static func getLowestIx(root: Int, min: Int) -> Int {
+        var lowest = ((min / MusicTheory.OCTAVE_SIZE) * MusicTheory.OCTAVE_SIZE) + (root % MusicTheory.OCTAVE_SIZE)
+        if (min % MusicTheory.OCTAVE_SIZE) > (root % MusicTheory.OCTAVE_SIZE) {
+            lowest += MusicTheory.OCTAVE_SIZE
+        }
+        return lowest
+    }
 }

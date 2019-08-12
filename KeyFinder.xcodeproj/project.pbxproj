@@ -24,6 +24,7 @@
 		F79B494D2301A90B00B0B915 /* ChordTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494C2301A90B00B0B915 /* ChordTone.swift */; };
 		F79B494F2301AA3900B0B915 /* BassTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494E2301AA3900B0B915 /* BassTone.swift */; };
 		F79B49532301AE7800B0B915 /* VoicingTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B49522301AE7800B0B915 /* VoicingTemplate.swift */; };
+		F79B49572301BD7C00B0B915 /* Voicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B49562301BD7C00B0B915 /* Voicing.swift */; };
 		F7FA2C6222F47FAA00E740A8 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA2C6122F47FA900E740A8 /* Key.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		F79B494C2301A90B00B0B915 /* ChordTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordTone.swift; sourceTree = "<group>"; };
 		F79B494E2301AA3900B0B915 /* BassTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassTone.swift; sourceTree = "<group>"; };
 		F79B49522301AE7800B0B915 /* VoicingTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicingTemplate.swift; sourceTree = "<group>"; };
+		F79B49562301BD7C00B0B915 /* Voicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voicing.swift; sourceTree = "<group>"; };
 		F7FA2C6122F47FA900E740A8 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +119,7 @@
 				F79B494C2301A90B00B0B915 /* ChordTone.swift */,
 				F79B494E2301AA3900B0B915 /* BassTone.swift */,
 				F79B49522301AE7800B0B915 /* VoicingTemplate.swift */,
+				F79B49562301BD7C00B0B915 /* Voicing.swift */,
 			);
 			path = KeyFinder;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F78D093422FC9F4E0077EAB5 /* ModeCollection.swift in Sources */,
+				F79B49572301BD7C00B0B915 /* Voicing.swift in Sources */,
 				F79B493822FDB8BF00B0B915 /* KeyChangeObserver.swift in Sources */,
 				F78D092B22FC94E70077EAB5 /* MelodicMinorMode.swift in Sources */,
 				F7FA2C6222F47FAA00E740A8 /* Key.swift in Sources */,
