@@ -23,6 +23,7 @@
 		F79B494B2301A74800B0B915 /* Tone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494A2301A74800B0B915 /* Tone.swift */; };
 		F79B494D2301A90B00B0B915 /* ChordTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494C2301A90B00B0B915 /* ChordTone.swift */; };
 		F79B494F2301AA3900B0B915 /* BassTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494E2301AA3900B0B915 /* BassTone.swift */; };
+		F79B49532301AE7800B0B915 /* VoicingTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B49522301AE7800B0B915 /* VoicingTemplate.swift */; };
 		F7FA2C6222F47FAA00E740A8 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA2C6122F47FA900E740A8 /* Key.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		F79B494A2301A74800B0B915 /* Tone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tone.swift; sourceTree = "<group>"; };
 		F79B494C2301A90B00B0B915 /* ChordTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordTone.swift; sourceTree = "<group>"; };
 		F79B494E2301AA3900B0B915 /* BassTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassTone.swift; sourceTree = "<group>"; };
+		F79B49522301AE7800B0B915 /* VoicingTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicingTemplate.swift; sourceTree = "<group>"; };
 		F7FA2C6122F47FA900E740A8 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 				F79B494A2301A74800B0B915 /* Tone.swift */,
 				F79B494C2301A90B00B0B915 /* ChordTone.swift */,
 				F79B494E2301AA3900B0B915 /* BassTone.swift */,
+				F79B49522301AE7800B0B915 /* VoicingTemplate.swift */,
 			);
 			path = KeyFinder;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				F79B494D2301A90B00B0B915 /* ChordTone.swift in Sources */,
 				F74A0A3522E880B900AF35A6 /* MusicTheory.swift in Sources */,
 				F7816D9522FC51EA00A58486 /* MajorMode.swift in Sources */,
+				F79B49532301AE7800B0B915 /* VoicingTemplate.swift in Sources */,
 				F79B494F2301AA3900B0B915 /* BassTone.swift in Sources */,
 				F79B493C22FDBBB400B0B915 /* KeyGenerator.swift in Sources */,
 				F74A0A3322E87E6900AF35A6 /* Note.swift in Sources */,
