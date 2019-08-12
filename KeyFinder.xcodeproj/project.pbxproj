@@ -11,6 +11,21 @@
 		F74A0A3322E87E6900AF35A6 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74A0A3222E87E6900AF35A6 /* Note.swift */; };
 		F74A0A3522E880B900AF35A6 /* MusicTheory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74A0A3422E880B900AF35A6 /* MusicTheory.swift */; };
 		F77BC8D022E8B65D00296789 /* KeyFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F74A0A2722E87DF900AF35A6 /* KeyFinder.framework */; };
+		F7816D9522FC51EA00A58486 /* MajorMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7816D9422FC51EA00A58486 /* MajorMode.swift */; };
+		F7816D9722FC5BBC00A58486 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7816D9622FC5BBC00A58486 /* Mode.swift */; };
+		F78D092B22FC94E70077EAB5 /* MelodicMinorMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D092A22FC94E70077EAB5 /* MelodicMinorMode.swift */; };
+		F78D093022FC983D0077EAB5 /* NoteCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D092F22FC983D0077EAB5 /* NoteCollection.swift */; };
+		F78D093422FC9F4E0077EAB5 /* ModeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78D093322FC9F4E0077EAB5 /* ModeCollection.swift */; };
+		F79B493622FDAB2E00B0B915 /* ActiveNoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B493522FDAB2E00B0B915 /* ActiveNoteList.swift */; };
+		F79B493822FDB8BF00B0B915 /* KeyChangeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B493722FDB8BF00B0B915 /* KeyChangeObserver.swift */; };
+		F79B493A22FDBA8900B0B915 /* KeyFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B493922FDBA8900B0B915 /* KeyFinder.swift */; };
+		F79B493C22FDBBB400B0B915 /* KeyGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B493B22FDBBB400B0B915 /* KeyGenerator.swift */; };
+		F79B494B2301A74800B0B915 /* Tone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494A2301A74800B0B915 /* Tone.swift */; };
+		F79B494D2301A90B00B0B915 /* ChordTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494C2301A90B00B0B915 /* ChordTone.swift */; };
+		F79B494F2301AA3900B0B915 /* BassTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494E2301AA3900B0B915 /* BassTone.swift */; };
+		F79B49532301AE7800B0B915 /* VoicingTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B49522301AE7800B0B915 /* VoicingTemplate.swift */; };
+		F79B49572301BD7C00B0B915 /* Voicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B49562301BD7C00B0B915 /* Voicing.swift */; };
+		F7FA2C6222F47FAA00E740A8 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA2C6122F47FA900E740A8 /* Key.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +45,21 @@
 		F74A0A3222E87E6900AF35A6 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		F74A0A3422E880B900AF35A6 /* MusicTheory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTheory.swift; sourceTree = "<group>"; };
 		F77BC8CB22E8B65D00296789 /* KeyFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7816D9422FC51EA00A58486 /* MajorMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorMode.swift; sourceTree = "<group>"; };
+		F7816D9622FC5BBC00A58486 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		F78D092A22FC94E70077EAB5 /* MelodicMinorMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelodicMinorMode.swift; sourceTree = "<group>"; };
+		F78D092F22FC983D0077EAB5 /* NoteCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCollection.swift; sourceTree = "<group>"; };
+		F78D093322FC9F4E0077EAB5 /* ModeCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeCollection.swift; sourceTree = "<group>"; };
+		F79B493522FDAB2E00B0B915 /* ActiveNoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveNoteList.swift; sourceTree = "<group>"; };
+		F79B493722FDB8BF00B0B915 /* KeyChangeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChangeObserver.swift; sourceTree = "<group>"; };
+		F79B493922FDBA8900B0B915 /* KeyFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFinder.swift; sourceTree = "<group>"; };
+		F79B493B22FDBBB400B0B915 /* KeyGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyGenerator.swift; sourceTree = "<group>"; };
+		F79B494A2301A74800B0B915 /* Tone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tone.swift; sourceTree = "<group>"; };
+		F79B494C2301A90B00B0B915 /* ChordTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordTone.swift; sourceTree = "<group>"; };
+		F79B494E2301AA3900B0B915 /* BassTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassTone.swift; sourceTree = "<group>"; };
+		F79B49522301AE7800B0B915 /* VoicingTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicingTemplate.swift; sourceTree = "<group>"; };
+		F79B49562301BD7C00B0B915 /* Voicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voicing.swift; sourceTree = "<group>"; };
+		F7FA2C6122F47FA900E740A8 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +105,21 @@
 				F74A0A2B22E87DF900AF35A6 /* Info.plist */,
 				F74A0A3222E87E6900AF35A6 /* Note.swift */,
 				F74A0A3422E880B900AF35A6 /* MusicTheory.swift */,
+				F7FA2C6122F47FA900E740A8 /* Key.swift */,
+				F7816D9422FC51EA00A58486 /* MajorMode.swift */,
+				F7816D9622FC5BBC00A58486 /* Mode.swift */,
+				F78D092A22FC94E70077EAB5 /* MelodicMinorMode.swift */,
+				F78D092F22FC983D0077EAB5 /* NoteCollection.swift */,
+				F78D093322FC9F4E0077EAB5 /* ModeCollection.swift */,
+				F79B493522FDAB2E00B0B915 /* ActiveNoteList.swift */,
+				F79B493722FDB8BF00B0B915 /* KeyChangeObserver.swift */,
+				F79B493922FDBA8900B0B915 /* KeyFinder.swift */,
+				F79B493B22FDBBB400B0B915 /* KeyGenerator.swift */,
+				F79B494A2301A74800B0B915 /* Tone.swift */,
+				F79B494C2301A90B00B0B915 /* ChordTone.swift */,
+				F79B494E2301AA3900B0B915 /* BassTone.swift */,
+				F79B49522301AE7800B0B915 /* VoicingTemplate.swift */,
+				F79B49562301BD7C00B0B915 /* Voicing.swift */,
 			);
 			path = KeyFinder;
 			sourceTree = "<group>";
@@ -190,8 +235,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78D093422FC9F4E0077EAB5 /* ModeCollection.swift in Sources */,
+				F79B49572301BD7C00B0B915 /* Voicing.swift in Sources */,
+				F79B493822FDB8BF00B0B915 /* KeyChangeObserver.swift in Sources */,
+				F78D092B22FC94E70077EAB5 /* MelodicMinorMode.swift in Sources */,
+				F7FA2C6222F47FAA00E740A8 /* Key.swift in Sources */,
+				F79B494B2301A74800B0B915 /* Tone.swift in Sources */,
+				F7816D9722FC5BBC00A58486 /* Mode.swift in Sources */,
+				F79B493A22FDBA8900B0B915 /* KeyFinder.swift in Sources */,
+				F78D093022FC983D0077EAB5 /* NoteCollection.swift in Sources */,
+				F79B494D2301A90B00B0B915 /* ChordTone.swift in Sources */,
 				F74A0A3522E880B900AF35A6 /* MusicTheory.swift in Sources */,
+				F7816D9522FC51EA00A58486 /* MajorMode.swift in Sources */,
+				F79B49532301AE7800B0B915 /* VoicingTemplate.swift in Sources */,
+				F79B494F2301AA3900B0B915 /* BassTone.swift in Sources */,
+				F79B493C22FDBBB400B0B915 /* KeyGenerator.swift in Sources */,
 				F74A0A3322E87E6900AF35A6 /* Note.swift in Sources */,
+				F79B493622FDAB2E00B0B915 /* ActiveNoteList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

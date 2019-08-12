@@ -131,7 +131,7 @@ public class MusicTheory {
     /**
      * Total number of unique tones in western music.
      */
-    public static let TOTAL_NOTES = 12
+    public static let OCTAVE_SIZE = 12
     
     /**
      * Number of notes in a diatonic scale.
@@ -145,4 +145,12 @@ public class MusicTheory {
         "Major",
         "Melodic Minor"
     ]
+    
+    public static func getLowestIx(root: Int, min: Int) -> Int {
+        var lowest = ((min / MusicTheory.OCTAVE_SIZE) * MusicTheory.OCTAVE_SIZE) + (root % MusicTheory.OCTAVE_SIZE)
+        if (min % MusicTheory.OCTAVE_SIZE) > (root % MusicTheory.OCTAVE_SIZE) {
+            lowest += MusicTheory.OCTAVE_SIZE
+        }
+        return lowest
+    }
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Note: Equatable {
+public class Note: Equatable {
     
     // Differences from java lib:
     // Octave isn't used.
@@ -16,21 +16,21 @@ class Note: Equatable {
     
     // Used when octave doesn't matter (eg: all C's == 0, all Db's == 1)
     // For determining key
-    let ix: Int
+    public let ix: Int
     
     // Used when octave matters (eg: C == 0, or C == 12, etc ... )
     // For playback
-    let rawIx: Int
+    public let rawIx: Int
     
-    let name: String
+    public let name: String
     
-    init(ix: Int) {
+    public init(ix: Int) {
         self.rawIx = ix
-        self.ix = ix % MusicTheory.TOTAL_NOTES
-        self.name = MusicTheory.CHROMATIC_SCALE_SHARP[ix]
+        self.ix = ix % MusicTheory.OCTAVE_SIZE
+        self.name = MusicTheory.CHROMATIC_SCALE_SHARP[self.ix]
     }
     
     public static func == (lhs: Note, rhs: Note) -> Bool {
-        return lhs.ix == rhs.ix
+        return lhs.rawIx == rhs.rawIx
     }
 }
