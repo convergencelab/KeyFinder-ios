@@ -10,16 +10,10 @@ import Foundation
 
 public class Note: Equatable {
     
-    // Differences from java lib:
-    // Octave isn't used.
-    // Note timer isn't used.
-    
-    // Used when octave doesn't matter (eg: all C's == 0, all Db's == 1)
-    // For determining key
+    // ix % 12
     public let ix: Int
     
-    // Used when octave matters (eg: C == 0, or C == 12, etc ... )
-    // For playback
+    // ix
     public let rawIx: Int
     
     public let name: String
