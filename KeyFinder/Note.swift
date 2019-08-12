@@ -31,6 +31,6 @@ public class Note: Equatable {
     }
     
     public static func == (lhs: Note, rhs: Note) -> Bool {
-        return lhs.ix == rhs.ix
+        return lhs.rawIx == rhs.rawIx
     }
 }

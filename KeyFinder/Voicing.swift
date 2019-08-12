@@ -18,6 +18,7 @@ public class Voicing {
         }
     }
     
+    // Todo: Should throw error if min bass is greater than min chord?
     public init(voicingTemplate: VoicingTemplate, key: Key, minBassIx: Int, minChordIx: Int) {
         voices = Voicing.makeVoices(voicingTemplate: voicingTemplate, key: key, minBassIx: minBassIx, minChordIx: minChordIx)
     }
