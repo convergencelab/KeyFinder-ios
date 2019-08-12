@@ -20,6 +20,9 @@
 		F79B493822FDB8BF00B0B915 /* KeyChangeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B493722FDB8BF00B0B915 /* KeyChangeObserver.swift */; };
 		F79B493A22FDBA8900B0B915 /* KeyFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B493922FDBA8900B0B915 /* KeyFinder.swift */; };
 		F79B493C22FDBBB400B0B915 /* KeyGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B493B22FDBBB400B0B915 /* KeyGenerator.swift */; };
+		F79B494B2301A74800B0B915 /* Tone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494A2301A74800B0B915 /* Tone.swift */; };
+		F79B494D2301A90B00B0B915 /* ChordTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494C2301A90B00B0B915 /* ChordTone.swift */; };
+		F79B494F2301AA3900B0B915 /* BassTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494E2301AA3900B0B915 /* BassTone.swift */; };
 		F7FA2C6222F47FAA00E740A8 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA2C6122F47FA900E740A8 /* Key.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +52,9 @@
 		F79B493722FDB8BF00B0B915 /* KeyChangeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChangeObserver.swift; sourceTree = "<group>"; };
 		F79B493922FDBA8900B0B915 /* KeyFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFinder.swift; sourceTree = "<group>"; };
 		F79B493B22FDBBB400B0B915 /* KeyGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyGenerator.swift; sourceTree = "<group>"; };
+		F79B494A2301A74800B0B915 /* Tone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tone.swift; sourceTree = "<group>"; };
+		F79B494C2301A90B00B0B915 /* ChordTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordTone.swift; sourceTree = "<group>"; };
+		F79B494E2301AA3900B0B915 /* BassTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassTone.swift; sourceTree = "<group>"; };
 		F7FA2C6122F47FA900E740A8 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +111,9 @@
 				F79B493722FDB8BF00B0B915 /* KeyChangeObserver.swift */,
 				F79B493922FDBA8900B0B915 /* KeyFinder.swift */,
 				F79B493B22FDBBB400B0B915 /* KeyGenerator.swift */,
+				F79B494A2301A74800B0B915 /* Tone.swift */,
+				F79B494C2301A90B00B0B915 /* ChordTone.swift */,
+				F79B494E2301AA3900B0B915 /* BassTone.swift */,
 			);
 			path = KeyFinder;
 			sourceTree = "<group>";
@@ -224,11 +233,14 @@
 				F79B493822FDB8BF00B0B915 /* KeyChangeObserver.swift in Sources */,
 				F78D092B22FC94E70077EAB5 /* MelodicMinorMode.swift in Sources */,
 				F7FA2C6222F47FAA00E740A8 /* Key.swift in Sources */,
+				F79B494B2301A74800B0B915 /* Tone.swift in Sources */,
 				F7816D9722FC5BBC00A58486 /* Mode.swift in Sources */,
 				F79B493A22FDBA8900B0B915 /* KeyFinder.swift in Sources */,
 				F78D093022FC983D0077EAB5 /* NoteCollection.swift in Sources */,
+				F79B494D2301A90B00B0B915 /* ChordTone.swift in Sources */,
 				F74A0A3522E880B900AF35A6 /* MusicTheory.swift in Sources */,
 				F7816D9522FC51EA00A58486 /* MajorMode.swift in Sources */,
+				F79B494F2301AA3900B0B915 /* BassTone.swift in Sources */,
 				F79B493C22FDBBB400B0B915 /* KeyGenerator.swift in Sources */,
 				F74A0A3322E87E6900AF35A6 /* Note.swift in Sources */,
 				F79B493622FDAB2E00B0B915 /* ActiveNoteList.swift in Sources */,
