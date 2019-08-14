@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ActiveNoteList {
+public class ActiveNoteList {
         
     // Keys to increment/decrement for active notes I/O.
     // Sequence is dependent on parent scale.
@@ -25,31 +25,27 @@ class ActiveNoteList {
         keyStrength = Array(repeating: 0, count: MusicTheory.OCTAVE_SIZE)
     }
     
-    public func max() -> Int {
-        return keyStrength.max()!
-    }
-    
     public func addNote(ix: Int) {
         if !noteIsActive[ix] {
             noteIsActive[ix] = true
-            incrementKeysWith(ix: ix)
+            incrementKeysWithNote(ix: ix)
         }
     }
     
     public func removeNote(ix: Int) {
         if noteIsActive[ix] {
             noteIsActive[ix] = false
-            decrementKeysWith(ix: ix)
+            decrementKeysWithNote(ix: ix)
         }
     }
     
-    private func incrementKeysWith(ix: Int) {
+    private func incrementKeysWithNote(ix: Int) {
         for intvl in incrementSequence {
             keyStrength[(intvl + ix) % MusicTheory.OCTAVE_SIZE] += 1
         }
     }
     
-    private func decrementKeysWith(ix: Int) {
+    private func decrementKeysWithNote(ix: Int) {
         for intvl in incrementSequence {
             keyStrength[(intvl + ix) % MusicTheory.OCTAVE_SIZE] -= 1
         }

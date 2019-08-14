@@ -23,6 +23,7 @@
 		F79B494F2301AA3900B0B915 /* BassTone.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B494E2301AA3900B0B915 /* BassTone.swift */; };
 		F79B49532301AE7800B0B915 /* VoicingTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B49522301AE7800B0B915 /* VoicingTemplate.swift */; };
 		F79B49572301BD7C00B0B915 /* Voicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B49562301BD7C00B0B915 /* Voicing.swift */; };
+		F7B6FD1723043F940078C022 /* ParentScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B6FD1623043F940078C022 /* ParentScale.swift */; };
 		F7FA2C6222F47FAA00E740A8 /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA2C6122F47FA900E740A8 /* Key.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		F79B494E2301AA3900B0B915 /* BassTone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassTone.swift; sourceTree = "<group>"; };
 		F79B49522301AE7800B0B915 /* VoicingTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoicingTemplate.swift; sourceTree = "<group>"; };
 		F79B49562301BD7C00B0B915 /* Voicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voicing.swift; sourceTree = "<group>"; };
+		F7B6FD1623043F940078C022 /* ParentScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentScale.swift; sourceTree = "<group>"; };
 		F7FA2C6122F47FA900E740A8 /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 				F79B494E2301AA3900B0B915 /* BassTone.swift */,
 				F79B49522301AE7800B0B915 /* VoicingTemplate.swift */,
 				F79B49562301BD7C00B0B915 /* Voicing.swift */,
+				F7B6FD1623043F940078C022 /* ParentScale.swift */,
 			);
 			path = KeyFinder;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				F79B49532301AE7800B0B915 /* VoicingTemplate.swift in Sources */,
 				F79B494F2301AA3900B0B915 /* BassTone.swift in Sources */,
 				F74A0A3322E87E6900AF35A6 /* Note.swift in Sources */,
+				F7B6FD1723043F940078C022 /* ParentScale.swift in Sources */,
 				F79B493622FDAB2E00B0B915 /* ActiveNoteList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
