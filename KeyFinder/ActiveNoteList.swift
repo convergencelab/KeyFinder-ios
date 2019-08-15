@@ -12,15 +12,13 @@ public class ActiveNoteList {
         
     // Keys to increment/decrement for active notes I/O.
     // Sequence is dependent on parent scale.
-    public var incrementSequence: [Int]
+    public var incrementSequence: [Int]?
     
     public private(set) var noteIsActive: [Bool]
     
     public private(set) var keyStrength: [Int]
     
     public init() {
-        // Increment Sequence for major
-        self.incrementSequence = MusicTheory.PHRYGIAN_SCALE_SEQUENCE
         noteIsActive = Array(repeating: false, count: MusicTheory.OCTAVE_SIZE)
         keyStrength = Array(repeating: 0, count: MusicTheory.OCTAVE_SIZE)
     }
@@ -39,14 +37,26 @@ public class ActiveNoteList {
         }
     }
     
+    public func clear() {
+        /* Keeps reference to increment sequence */
+        
+        for ix in 0..<noteIsActive.count {
+            noteIsActive[ix] = false
+        }
+        for ix in 0..<keyStrength.count {
+            keyStrength[ix] = 0
+        }
+        
+    }
+    
     private func incrementKeysWithNote(ix: Int) {
-        for intvl in incrementSequence {
+        for intvl in incrementSequence! {
             keyStrength[(intvl + ix) % MusicTheory.OCTAVE_SIZE] += 1
         }
     }
     
     private func decrementKeysWithNote(ix: Int) {
-        for intvl in incrementSequence {
+        for intvl in incrementSequence! {
             keyStrength[(intvl + ix) % MusicTheory.OCTAVE_SIZE] -= 1
         }
     }
